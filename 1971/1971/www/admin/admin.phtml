@@ -1,0 +1,39 @@
+<!-- <main> -->
+
+
+<?php if(isAdmin()): ?>
+<section>
+    <nav>
+        <a href="index.php?page=">Voir .....1</a>
+        <a href="index.php?page=">Voir ......2</a>
+        <a href="index.php?page=">Voir ....3</a>
+        <a href="index.php?page=">Voir ....4</a>
+    </nav>
+</section>
+
+<?php else: ?>
+<section>
+    <form method="post" action="index.php?page=adminH">
+        
+        <fieldset>
+            <legend>Informations d'authentification</legend>
+            <p>
+                <label for="mail">E-mail :</label>
+                <input type="email" name="mail" id="mail" required/>
+                <br />
+                <label for="pass">Mot de passe :</label>
+                <input type="password" name="pass" id="pass" required/>
+            </p>
+        </fieldset>
+            <p>
+                <input type="submit" value="Connexion" >
+                <a class="annuler" href="index.php">Annuler</a>
+                </p>
+    </form>
+</section>
+
+<?php endif ?>
+
+
+
+<!-- </main> -->

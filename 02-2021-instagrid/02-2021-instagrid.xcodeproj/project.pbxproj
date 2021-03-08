@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EE1D7CC25DDC896000AFEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1D7CB25DDC896000AFEEE /* AppDelegate.swift */; };
+		6EE1D7CE25DDC896000AFEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1D7CD25DDC896000AFEEE /* SceneDelegate.swift */; };
+		6EE1D7D025DDC896000AFEEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1D7CF25DDC896000AFEEE /* ViewController.swift */; };
+		6EE1D7D325DDC896000AFEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1D7D125DDC896000AFEEE /* Main.storyboard */; };
+		6EE1D7D525DDC89E000AFEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1D7D425DDC89E000AFEEE /* Assets.xcassets */; };
+		6EE1D7D825DDC89E000AFEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1D7D625DDC89E000AFEEE /* LaunchScreen.storyboard */; };
+		6EE1D7F125DDD411000AFEEE /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1D7F025DDD411000AFEEE /* Delm-Medium.otf */; };
+		6EE1D7F625DDD45D000AFEEE /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EE1D7F525DDD45D000AFEEE /* ThirstySoftRegular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EE1D7C825DDC896000AFEEE /* 02-2021-instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-2021-instagrid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE1D7CB25DDC896000AFEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EE1D7CD25DDC896000AFEEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EE1D7CF25DDC896000AFEEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EE1D7D225DDC896000AFEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EE1D7D425DDC89E000AFEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EE1D7D725DDC89E000AFEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EE1D7D925DDC89E000AFEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE1D7F025DDD411000AFEEE /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Delm-Medium.otf"; path = "../../../../../.Trash/Delm-Medium.otf"; sourceTree = "<group>"; };
+		6EE1D7F525DDD45D000AFEEE /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ThirstySoftRegular.otf; path = ../../../../../.Trash/ThirstySoftRegular.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE1D7C525DDC896000AFEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EE1D7BF25DDC896000AFEEE = {
+			isa = PBXGroup;
+			children = (
+				6EE1D7CA25DDC896000AFEEE /* 02-2021-instagrid */,
+				6EE1D7D925DDC89E000AFEEE /* Info.plist */,
+				6EE1D7C925DDC896000AFEEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE1D7C925DDC896000AFEEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE1D7C825DDC896000AFEEE /* 02-2021-instagrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE1D7CA25DDC896000AFEEE /* 02-2021-instagrid */ = {
+			isa = PBXGroup;
+			children = (
+				6EE1D7E725DDD350000AFEEE /* Controller */,
+				6EE1D7CD25DDC896000AFEEE /* SceneDelegate.swift */,
+				6EE1D7E625DDD2FE000AFEEE /* View */,
+				6EE1D7E825DDD36E000AFEEE /* Supporting Files */,
+			);
+			path = "02-2021-instagrid";
+			sourceTree = "<group>";
+		};
+		6EE1D7E625DDD2FE000AFEEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EE1D7D125DDC896000AFEEE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EE1D7E725DDD350000AFEEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EE1D7CF25DDC896000AFEEE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6EE1D7E825DDD36E000AFEEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE1D7CB25DDC896000AFEEE /* AppDelegate.swift */,
+				6EE1D7F025DDD411000AFEEE /* Delm-Medium.otf */,
+				6EE1D7F525DDD45D000AFEEE /* ThirstySoftRegular.otf */,
+				6EE1D7D425DDC89E000AFEEE /* Assets.xcassets */,
+				6EE1D7D625DDC89E000AFEEE /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE1D7C725DDC896000AFEEE /* 02-2021-instagrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE1D7DC25DDC89E000AFEEE /* Build configuration list for PBXNativeTarget "02-2021-instagrid" */;
+			buildPhases = (
+				6EE1D7C425DDC896000AFEEE /* Sources */,
+				6EE1D7C525DDC896000AFEEE /* Frameworks */,
+				6EE1D7C625DDC896000AFEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-2021-instagrid";
+			productName = "02-2021-instagrid";
+			productReference = 6EE1D7C825DDC896000AFEEE /* 02-2021-instagrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE1D7C025DDC896000AFEEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6EE1D7C725DDC896000AFEEE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6EE1D7C325DDC896000AFEEE /* Build configuration list for PBXProject "02-2021-instagrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EE1D7BF25DDC896000AFEEE;
+			productRefGroup = 6EE1D7C925DDC896000AFEEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE1D7C725DDC896000AFEEE /* 02-2021-instagrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE1D7C625DDC896000AFEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE1D7D825DDC89E000AFEEE /* LaunchScreen.storyboard in Resources */,
+				6EE1D7D525DDC89E000AFEEE /* Assets.xcassets in Resources */,
+				6EE1D7F625DDD45D000AFEEE /* ThirstySoftRegular.otf in Resources */,
+				6EE1D7F125DDD411000AFEEE /* Delm-Medium.otf in Resources */,
+				6EE1D7D325DDC896000AFEEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE1D7C425DDC896000AFEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE1D7D025DDC896000AFEEE /* ViewController.swift in Sources */,
+				6EE1D7CC25DDC896000AFEEE /* AppDelegate.swift in Sources */,
+				6EE1D7CE25DDC896000AFEEE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EE1D7D125DDC896000AFEEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE1D7D225DDC896000AFEEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EE1D7D625DDC89E000AFEEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE1D7D725DDC89E000AFEEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE1D7DA25DDC89E000AFEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EE1D7DB25DDC89E000AFEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE1D7DD25DDC89E000AFEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-2021-instagrid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.honore-adeline.-2-2021-instagrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE1D7DE25DDC89E000AFEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "02-2021-instagrid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.honore-adeline.-2-2021-instagrid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE1D7C325DDC896000AFEEE /* Build configuration list for PBXProject "02-2021-instagrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE1D7DA25DDC89E000AFEEE /* Debug */,
+				6EE1D7DB25DDC89E000AFEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE1D7DC25DDC89E000AFEEE /* Build configuration list for PBXNativeTarget "02-2021-instagrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE1D7DD25DDC89E000AFEEE /* Debug */,
+				6EE1D7DE25DDC89E000AFEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE1D7C025DDC896000AFEEE /* Project object */;
+}

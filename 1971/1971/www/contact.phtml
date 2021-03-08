@@ -1,0 +1,81 @@
+<!-- <main> -->
+
+<section>
+    <h3>commentaires et autres</h3>
+    <p>Nous sommes heureux de reprendre contact avec vous.</p>
+    <p>Envoyez-nous <a href="mailto:eric.honore@live.fr">un mail</a> ou remplissez le formulaire suivant:</p>
+    <form method="post" action="index.php?page=contact">
+        <p>
+            <label>Prénom : </label>
+            <input type="text" name="c_pname" id="c_pname" required/> *
+        </p>
+        
+        <p>
+            <label>Nom : </label>
+            <input type="text" name="c_name" id="c_name" required/> *
+        </p>
+        
+        <p>
+            <label>Numéro de tél :</label>
+            <input type="text" name="c_tel" id="c_tel" />
+        </p>
+        
+        <p>
+            <label>Adrese mail :</label>
+            <input type="text" name="c_email" id="c_email" />
+        </p>
+        
+        <textarea name="c_text"></textarea>
+    </form>
+</section>
+
+
+<section>
+    <h3>Les élèves de cette photo</h3>
+    <form method="post" action="index.php?page=student">
+        <p>Je me souviens de l'élève à la place : <input type="place" name="place" id="place" required/> *.</p>
+        <p>
+            Il s'agit de :
+            <input type="s_pname" name="s_pname" id="s_pname" placeholder="Prénom" />
+      
+            <input type="s_name" name="s_name" id="s_name" placeholder="Nom" /> 
+            </p>
+            <p>
+            <input type="radio" name="s_perso" id="s_me" value="s_me"> <label>C'est moi sur la photo</label>
+            </p>
+            <p>
+            <input type="radio" name="s_perso" id="s_notme" value="s_notme"> <label>Ce n'est pas moi sur la photo mais j'ai reconnu quelqu'un</label>
+            </p>
+        </p>
+        
+        <p>
+            Un petit commentaire, ça fait toujours plaisir:
+            <textarea name="s_comment" placeholder="Je me souviens ..."></textarea>
+        </p>
+        
+        <p>
+            <label>Numéro de tél :</label>
+            <input type="tel" name="tel" id="tel" />
+            et / ou
+            <label>Adrese mail :</label>
+            <input type="email" name="email" id="email" />
+        </p>
+        
+        
+    </form>
+</section>
+
+<aside>
+    <article>
+        <h6>article test pour prouver le ASIDE</h6>
+        <p>lorem ipsum dolor sin amet</p>
+        <q>de moi</q>
+    </article>
+    <article>
+        <title></title>
+        <p></p>
+        <q></q>
+    </article>
+</aside>
+
+<!-- </main> -->

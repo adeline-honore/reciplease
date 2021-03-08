@@ -1,0 +1,124 @@
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX       GLOBAL     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Parie 1 : global (redefinition de balises)*/
+
+/*====   BOX SIZING    =====*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/*====   FIN  BOX SIZING    =====*/
+
+
+html{
+    font-size: 62.5%; /* ---  valeur habituelle  ---*/
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+
+h2{
+    color: green;
+}
+
+p{
+    color: black;
+}
+
+
+
+
+
+/*------------   font family  et font size    ------------*/
+
+h1{
+    font-family: 'Coiny', 'Saira Stencil One', cursive;
+    color: red;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: black;
+}
+
+
+
+/*------------   text align, padding, margin     ------------*/
+body, img, h1, .accueil p, .accueil figcaption{
+    text-align: center;
+}
+
+body, main, header, h1, figure, footer{
+    margin: 0 auto;
+}
+
+ h1, main, footer{
+    width: 80%;
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX     LAYOUT     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Partie 2 : Layout (definition des éléments de structures)*/
+
+
+
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX     MODULE    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Partie 3 : module (definition des éléments internes)*/
+
+
+
+
+
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX    ETAT     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Partie 5: état (definition des élémentS qui ont un état spécifique ou un changement d'état)*/
+
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX     THEME     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Parie 4 : theme (definition des couleurs et background)    */
+
+body{
+    background-image: url("../img/blackboard-1846865__340.jpg");
+}
+
+main{
+    background-color: white;
+    width: 80%;
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXX     MEDIA QUERIES     XXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/*XXXXXXXXXXXXXXXXX   TABLETTE  XXXXXXXXXXXXXXXXXXXXXX*/
+
+@media screen and (min-width: 800px){
+    
+}
+
+
+/*XXXXXXXXXXXXXXXXX   DESKTOP  XXXXXXXXXXXXXXXXXXXXXX*/
+@media screen and (min-width: 1050px){
+	
+	
+}
